@@ -1,0 +1,23 @@
+{
+  "name": "nightwatch-tests",
+  "version": "1.0.0",
+  "description": "Some NightwatchJS tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pawlakmaly/nightwatch-tests.git"
+  },
+  "author": "P.Malecki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pawlakmaly/nightwatch-tests/issues"
+  },
+  "homepage": "https://github.com/pawlakmaly/nightwatch-tests#readme",
+  "devDependencies": {
+    "geckodriver": "^2.0.1",
+    "nightwatch": "^1.7.7"
+  }
+}
