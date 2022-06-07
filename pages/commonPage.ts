@@ -3,7 +3,7 @@ import { EnhancedElementInstance, NightwatchBrowser } from "nightwatch";
 export default abstract class Page {
 
     public browser!: NightwatchBrowser;
-    public baseUrl!: string;
+    public abstract baseUrl: string;
     
     async navigate(): Promise<void> {
         await this.browser.url(this.baseUrl);
