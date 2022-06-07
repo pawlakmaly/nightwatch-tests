@@ -2,6 +2,9 @@
   "name": "nightwatch-tests",
   "version": "1.0.0",
   "description": "Some NightwatchJS tests",
+  "bin": {
+    "nightwatch": "./runner.js"
+  },
   "main": "index.js",
   "scripts": {
     "test": "nightwatch"
@@ -17,7 +20,13 @@
   },
   "homepage": "https://github.com/pawlakmaly/nightwatch-tests#readme",
   "devDependencies": {
+    "@types/mocha": "^9.1.1",
+    "chromedriver": "^102.0.0",
     "geckodriver": "^2.0.1",
-    "nightwatch": "^1.7.7"
+    "nightwatch": "^2.1.7",
+    "ts-node": "^10.8.1"
+  },
+  "dependencies": {
+    "@types/nightwatch": "^2.0.8"
   }
 }
