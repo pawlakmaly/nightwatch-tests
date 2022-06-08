@@ -8,9 +8,10 @@ export default class EcosiaPage extends Page {
     private CTA_BUTTON = '[data-track-id="above_fold_install_cta"]'
 
 
-    constructor(browser: NightwatchBrowser) {
+    constructor(browser: NightwatchBrowser, url: string) {
         super();
         this.browser = browser;
+        this.baseUrl = url;
     }
 
     async isPageOpen(): Promise<void> {
